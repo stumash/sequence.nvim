@@ -1,11 +1,6 @@
 local M = {}
 
-function M.seqInt(
-   first,
-   last,
-   sep,
-   skip)
-
+function M.seqInt(first, last, sep, skip)
    local result = ""
 
    local curr, i0 = first, true
@@ -24,12 +19,7 @@ function M.seqInt(
 end
 
 
-function M.seqFloat(
-   first,
-   last,
-   sep,
-   skip)
-
+function M.seqFloat(first, last, sep, skip)
    local result = ""
 
    local curr, i0 = first, true

@@ -7,5 +7,5 @@ Generate sequences and insert them into buffers easily
 TODO
 
 ```lua
-sq(1, 5, ', ') -- 1,2,3,4,5
+sq(1, 5, ', ') -- 1, 2, 3, 4, 5
 ```
